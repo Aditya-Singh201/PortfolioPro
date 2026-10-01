@@ -1,3 +1,27 @@
+# PortfolioPro frontend
+
+The frontend is an Angular application that provides account access, a demo market watch, simulated buy and sell orders, holdings, and transaction history.
+
+## Requirements
+
+- Node.js and npm
+- The PortfolioPro Spring Boot API running at `http://localhost:8080`
+- The configured MySQL database available to the backend
+
+## Run locally
+
+From this directory, install dependencies and start the Angular development server:
+
+```powershell
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173`. The port is kept at 5173 to match the backend's configured CORS origin.
+
+To create a production build, run `npm run build`.
+
+All displayed stock and index prices are demonstration values, not live market data.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
